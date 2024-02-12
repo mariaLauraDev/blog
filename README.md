@@ -26,7 +26,7 @@ To get a local copy up and running follow these simple steps.
 1. Clone the repo
 
 ```
-git clone [https://your-repository-link-here.git](https://github.com/mariaLauraDev/blog.git)https://github.com/mariaLauraDev/blog.git
+git clone https://github.com/mariaLauraDev/blog.git
 ```
 2. 2. Install Gem dependencies
 ```
