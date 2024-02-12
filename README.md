@@ -1,24 +1,53 @@
-# README
+# Blog Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## About The Project
 
-Things you may want to cover:
+This repository contains the source code for a blog developed using Ruby on Rails. The blog supports features such as creating, editing, and authenticating users, and has a robust system for managing blog posts.
 
-* Ruby version
+## Features
 
-* System dependencies
+- User authentication with Devise
+- CRUD operations for blog posts
+- Tailwind CSS for styling
+- Secure credentials management
+- Active storage for file management
 
-* Configuration
+## Getting Started
 
-* Database creation
+To get a local copy up and running follow these simple steps.
 
-* Database initialization
+### Prerequisites
 
-* How to run the test suite
+- Ruby [version]
+- Rails [version]
 
-* Services (job queues, cache servers, search engines, etc.)
+### Installation
 
-* Deployment instructions
+1. Clone the repo
 
-* ...
+```
+git clone [https://your-repository-link-here.git](https://github.com/mariaLauraDev/blog.git)https://github.com/mariaLauraDev/blog.git
+```
+2. 2. Install Gem dependencies
+```
+bundle install
+```
+3. Setup the database
+```
+rails db:create db:migrate
+```
+
+### Usage
+
+Run the Rails server
+
+```
+bin/dev
+```
+Now you can visit `http://localhost:3000` to view your application.
+
+## Acknowledgements
+
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Devise](https://github.com/heartcombo/devise)
+- [Ruby on Rails](https://rubyonrails.org/)
