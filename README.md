@@ -18,8 +18,8 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-- Ruby [version]
-- Rails [version]
+- Ruby 3.2.2
+- Rails 7.0.4.3
 
 ### Installation
 
